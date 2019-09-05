@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<RelativeLayout 
+  tools:context=".MainActivity" 
+  android:layout_height="match_parent" 
+  android:layout_width="match_parent" 
+  xmlns:tools="http://schemas.android.com/tools" 
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ImageView 
+  android:layout_height="match_parent" 
+  android:layout_width="match_parent" 
+  android:src="@drawable/birthday" 
+  android:scaleType="centerCrop"/>
+
+<TextView 
+ android:layout_height="wrap_content" 
+ android:layout_width="wrap_content" 
+ android:textSize="32sp" 
+ android:textColor="@android:color/white" 
+ android:text="Happy Birthday, Saras!" 
+ android:padding="20dp" 
+ android:fontFamily="sans-serif-light" 
+ android:id="@+id/ucapan"/>
+
+<TextView 
+ android:layout_height="wrap_content" 
+ android:layout_width="wrap_content" 
+ android:textSize="30sp" 
+ android:textColor="@android:color/white" 
+ android:text="Wishing you all the best" 
+ android:padding="20dp" 
+ android:fontFamily="sans-serif-light" 
+ android:layout_below="@+id/ucapan"/>
+
+<TextView 
+ android:layout_height="wrap_content" 
+ android:layout_width="wrap_content" 
+ android:textSize="30sp" 
+ android:textColor="@android:color/white" 
+ android:text="Love, Cynthia" 
+ android:padding="20dp" 
+ android:fontFamily="sans-serif-light" 
+ android:layout_alignParentRight="true" 
+ android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
